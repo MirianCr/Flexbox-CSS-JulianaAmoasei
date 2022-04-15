@@ -1,0 +1,60 @@
+.header{
+    display:flex;    
+    background-color: black;
+    color:white;      
+    
+}
+h1{
+    margin:1vw;
+}
+nav{
+    display:flex;
+    margin:auto;
+}
+ul.navbar{
+    display: flex;
+    list-style:none;
+    width: 35vw;    
+    background-color: black;
+    color: white;    
+    justify-content: space-around;
+    margin-left: 20vw;
+   
+    
+}
+ul li.linhas{
+    display: inline-flex;
+    margin: 5px;
+}
+
+.flex-container{
+    display: flex;    
+    width: 67vw;  
+    margin:auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.flex-item{
+    flex: 0 1 17%;
+}
+.card{
+    width: 10vw;
+    margin: 5px;
+    padding: 5px;
+}
+.card p{
+    font-size: 1.2em;
+}
+.card-promo{
+    background-color: red;
+}
+.card-info{
+    background-color: rgb(211, 120, 35);
+}
+.card-new{
+    background-color: green;
+}
+.elem-interno{
+    width: 60px;
+}
